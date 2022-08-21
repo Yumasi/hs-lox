@@ -1,0 +1,4 @@
+* hs-lox
+
+An implementation of the Lox language as used in the the Crafting Interpreters
+book.
