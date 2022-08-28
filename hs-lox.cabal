@@ -33,6 +33,7 @@ library
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints
   build-depends:
       base >=4.7 && <5
+    , mtl
   default-language: Haskell2010
 
 executable hs-lox-exe
@@ -45,6 +46,7 @@ executable hs-lox-exe
   build-depends:
       base >=4.7 && <5
     , hs-lox
+    , mtl
   default-language: Haskell2010
 
 test-suite hs-lox-test
@@ -58,4 +60,5 @@ test-suite hs-lox-test
   build-depends:
       base >=4.7 && <5
     , hs-lox
+    , mtl
   default-language: Haskell2010
