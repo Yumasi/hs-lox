@@ -25,7 +25,8 @@ source-repository head
 
 library
   exposed-modules:
-      Lib
+      Token
+      TokenType
   other-modules:
       Paths_hs_lox
   hs-source-dirs:
